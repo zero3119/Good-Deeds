@@ -31,9 +31,7 @@ const StreakPage = () => {
   }, [auth, firestore]);
 
   // Calculate the percentage of hours completed
-  //const progressPercentage = (totalHours / maxHours) * 100;
-  const progressPercentage = 100;
- 
+  const progressPercentage = (totalHours / maxHours) * 100;
 
   // Update button state based on progress
   useEffect(() => {
