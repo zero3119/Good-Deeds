@@ -2,8 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LandingPage from "./Pages/LandingPage";
 import HomePage from "./Pages/HomePage";
-import SignUp from './Authentication/SignUp';
-import Login from "./Authentication/Login";
+import SignUp from './Pages/SignUp';
 import StreakPage from './Pages/StreakPage';
 import UserEvents from './Pages/UserEvents';
 
